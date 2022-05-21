@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Nunito:wght@700&family=PT+Sans:ital@1&family=Roboto+Slab&display=swap");
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.title-img {
+  max-width: 300px;
+}
+.title {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 5px;
+  color: #f08494;
+  text-shadow: 2px 1px 1px #803d47, 3px 1px 1px black;
+}
+b {
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+.score-list {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  list-style-type: none;
+}
+.score,
+.bestScore {
+  color: #803d47;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
+  margin: 5px;
+}
+p {
+  font-family: "Roboto Slab", serif;
+}
